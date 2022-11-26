@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Codec Cold;
+    src: url(./assets/Codec-Cold-ExtraBold-trial.ttf);
+ }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Codec Cold";
+    
+}
+
+body{
+    overflow: auto;
+    scroll-behavior:smooth;
+    background-color: #0D1220;
+}
+.header{
+    margin-top: 47px;
+}
+.header svg{
+    margin-left: 72px;
+    margin-right: 15px;
+    height: 30px;
+    width: 42px;
+    transform: translate(5px);
+}
+.header p{
+    position: relative;
+    bottom: 5px;
+    display: inline-block;
+    width: 177px;
+    height: 38px;
+}
+
+.header span{
+    color: #ffffff;
+    font-size: 27.2682px;
+    line-height: 38.1754px;
+    letter-spacing: 0.5999px;
+    text-align: start;
+    font-family: "Codec Cold", serif;
+}
+
+main{
+    scroll-behavior: smooth;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}
+
+.main_left{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 6%;
+    float: left;
+
+}
+
+.main_left span{
+    font-weight: 400px;
+    font-size: 80px;
+    line-height: 84px;
+    font-style: normal;
+    color: #ffffff;
+    font-family: "Codec Cold",serif;
+}
+
+.main_right{
+    position: relative;
+    float: right;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+.main_right img{
+
+    width: 27em;
+    height: 27em;
+    border-radius: 50px;
+}
+.about-me{
+    position: relative;
+    top: 80px;
+    width: 300px;
+    height: 95px;
+    left: 6%;
+    clear: left;
+}
+
+#button{
+    font-size: 22px;
+    line-height: 30px;
+    width: 300px;
+    height: 95px;
+    text-align: center;
+    background-image: linear-gradient(to right, #A040ED , #CE3EA8, #FB3C64);
+    border-radius: 50px;
+    font-family: "Codec Cold";
+}
+
+.desk{
+    position: relative;
+    margin-top: 7%;
+    text-align: center;
+}
+
+
+.desk h1{
+    width: 70%;
+    margin: auto;
+    font-family: "Codec Cold" , serif;
+    color:#ffffff ;
+    font-weight: 400;
+    font-size: 59px;
+    line-height: 69px;
+    text-align: center;
+}
+
+.desk p{
+    position: relative;
+    width: 51%;
+    height: 117px;
+    text-align: center;
+    margin-top: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}   
+
+#buttonm{
+    border-radius: 50%;
+}
+

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: linear-gradient(151.79deg, #0F2B05 4.34%, #000000 87.6%);
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    cursor: pointer;
+    width: 264px;
+    height: 419px;
+    margin-top: 5%;
+    transform: translateY(-100px);
+    animation: appear 0.8s forwards;
+}
+
+#logo-nwl{
+    margin-top: 6%;
+
+}
+
+#fig-nlw{
+    width: 264px;
+    height: 419px;
+
+    
+}
+
+.avatar{
+    user-select: none;
+    height: 150px;
+    
+    position: relative;
+    bottom: 58.5%;
+    transform: translateY(-50%);
+}
+
+#avatar{
+   border-radius: 50%;
+   border: solid #F7DD43 4px;
+    width: 150px;
+    height: 150px;
+}
+
+.avatar .desk{
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 28px;   
+    margin-top: 90px;
+}
+
+.desk p{
+    margin-bottom: 25px;
+}
+
+
+@media (max-width:600px){
+
+    #logo-nwl{
+        margin-top: 10%;
+    
+    }
+
+    .card{
+    
+        margin-top: 12%;
+    }
+
+    
+
+}
+
+@keyframes appear {
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
